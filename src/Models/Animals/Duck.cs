@@ -18,7 +18,7 @@ namespace Trestlebridge.Models.Animals
             }
         }
 
-        public double GrassPerDay { get; set; } = 5.4;
+        public double GrassPerDay { get; set; } = 0.8;
         public string Type { get; } = "Cow";
 
         // Methods

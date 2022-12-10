@@ -6,7 +6,7 @@ namespace Trestlebridge.Models.Plants
     public class Sunflower : IResource, IPlowing, ISeedProducing
     {
         private int _seedsProduced = 40;
-        public string Type { get; } = "Sesame";
+        public string Type { get; } = "Sunflower";
 
         public double Harvest()
         {
@@ -15,7 +15,7 @@ namespace Trestlebridge.Models.Plants
 
         public override string ToString()
         {
-            return $"Sesame. Yum!";
+            return $"Sunflower. Yum!";
         }
     }
 }

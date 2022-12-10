@@ -27,7 +27,7 @@ namespace Trestlebridge.Actions
                     ChoosePlowedField.CollectInput(farm, new Sesame());
                     break;
                 case 2:
-                    ChoosePlowedField.CollectInput(farm, new Corn());
+                    ChoosePlowedField.CollectInput(farm, new Sunflower());
                     break;
                 case 3:
                     ChoosePlowedField.CollectInput(farm, new Sunflower());
